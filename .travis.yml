@@ -12,7 +12,7 @@ env:
   - COMMAND=rake
 matrix:
   include:
-    - rvm: 2.5.0
+    - rvm: 2.7.0
       env: COMMAND=rubocop
 before_install:
   - gem uninstall -v '>= 2' -i $(rvm gemdir)@global -ax bundler || true
