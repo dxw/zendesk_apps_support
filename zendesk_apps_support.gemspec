@@ -24,10 +24,11 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'rb-inotify', '0.9.10'
   s.add_runtime_dependency 'mimemagic', '~> 0.3.3'
   s.add_runtime_dependency 'ipaddress_2', '~> 0.13.0'
+  s.add_development_dependency 'rake', '~> 13.0.0'
   s.add_development_dependency 'rspec', '~> 3.4.0'
   s.add_development_dependency 'bump', '~> 0.5.1'
   s.add_development_dependency 'faker', '~> 1.6.6'
-  s.add_development_dependency 'rubocop', '~> 0.49.0'
+  s.add_development_dependency 'rubocop', '~> 0.52.0'
   s.add_development_dependency 'byebug', '~> 9.0.6'
   s.add_development_dependency 'bundler', '1.17.3'
 
