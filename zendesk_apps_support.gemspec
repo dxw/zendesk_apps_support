@@ -27,7 +27,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rspec', '~> 3.4.0'
   s.add_development_dependency 'bump', '~> 0.5.1'
   s.add_development_dependency 'faker', '~> 1.6.6'
-  s.add_development_dependency 'rubocop', '~> 0.49.0'
+  s.add_development_dependency 'rubocop', '~> 0.52.0'
   s.add_development_dependency 'byebug', '~> 9.0.6'
   s.add_development_dependency 'bundler', '1.17.3'
 
