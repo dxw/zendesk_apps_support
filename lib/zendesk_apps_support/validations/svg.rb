@@ -23,9 +23,9 @@ module ZendeskAppsSupport
       # Loofah's default scrubber strips spaces between CSS attributes. Passing the input markup through this scrubber
       # first ensures that this stripped whitespace in the output doesn't register as a diff.
       @strip_spaces_between_css_attrs = Loofah::Scrubber.new do |node|
-        match_pattern = Regexp.new(/\;\s+/)
+        match_pattern = Regexp.new(/\s+/)
         if node.name == 'svg' && node['style']
-          node['style'] = node['style'].gsub(match_pattern, ';')
+          node['style'] = node['style'].gsub(match_pattern, '')
         end
       end
 
